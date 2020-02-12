@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Raleway&display=swap');
+
+.App {
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
+}
+
+.ticTacToe {
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  border: 3px solid black;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  box-shadow: 3px 3px;
+}
+
+.cell {
+  border: 2px solid #333;
+  box-sizing: border-box;
+  font-size: 45px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.buttonWrap {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+button {
+  background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+  font-family: 'Fredoka One', cursive;
+  text-transform: uppercase;
+  border: 0px;
+  padding: 3px 10px;
+  color: black;
+  margin-bottom: 2px;
+  outline: none;
+  text-decoration: none;
+  font-size: 16px;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+
+}
+
+button:hover {
+  background-color: red;
+}
